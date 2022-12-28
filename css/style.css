@@ -104,6 +104,89 @@ header nav li a{
     width: 100%;
     display: block
 }
+.posts{
+    padding-top: 25px;
+    padding-bottom: 32px;
+    background-color: #EDF7FA;;
+}
+.posts .container{
+    max-width: 858px;
+    margin: auto;
+}
+.posts-heading{
+    justify-content: space-between;
+    align-items: center;
+}
+.posts h2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+.posts a{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.d-flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.posts .d-flex-container article{
+    max-width: 418px;
+    padding: 24px 21px 21px 23px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+.posts .d-flex-container article h3{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 17px;
+}
+.posts .d-flex-container .date{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.posts .d-flex-container .date:after{
+    display: inline;
+    content: "";
+    border: 1px solid #000000;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.posts .d-flex-container .location{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+.posts .d-flex-container article p{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
 .works-section{
     padding-top: 15px;
     padding-bottom: 83px;
@@ -266,4 +349,3 @@ footer li{
     text-align: center;
     color: #21243D;
 }
-
