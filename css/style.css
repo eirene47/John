@@ -26,6 +26,7 @@
     padding: 0;
     margin: 0;
 }
+/* Header */
 header{
     padding-top: 27px;
 }
@@ -52,6 +53,7 @@ header nav li a{
     color: #000000;
     text-decoration: none;
 }
+/* Main */
 .main-banner{
     padding-top: 140px;
     padding-bottom: 71px;
@@ -154,7 +156,7 @@ header nav li a{
     color: #21243D;
     margin-bottom: 17px;
 }
-.posts .d-flex-container .date{
+.date{
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -163,15 +165,18 @@ header nav li a{
     color: #21243D;
     display: inline-block;
     margin-bottom: 20px;
+    margin-right: 50px;
+    position: relative;
 }
-.posts .d-flex-container .date:after{
-    display: inline;
+.date:after{
     content: "";
-    border: 1px solid #000000;
-    margin-left: 26px;
-    margin-right: 26px;
+    position: absolute;
+    background-color: #000000;
+    width: 1px;
+    height: 100%;
+    margin-left: 25px;
 }
-.posts .d-flex-container .location{
+.location{
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -191,7 +196,7 @@ header nav li a{
     padding-top: 15px;
     padding-bottom: 83px;
 }
-.works{
+.works-section .container{
     max-width: 858px;
     margin: auto;
 }
@@ -321,6 +326,7 @@ header nav li a{
     border-radius: 2px;
     cursor: pointer;
 }
+/* Footer */
 footer{
     padding-top: 51px;
     padding-bottom: 54px;
@@ -347,5 +353,81 @@ footer li{
     font-size: 14px;
     line-height: 21px;
     text-align: center;
+    color: #21243D;
+}
+/* Blog-page */
+.blog{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FF6464;
+}
+.blog-section{
+    padding-top: 90px;
+    padding-bottom: 53px;
+}
+.blog-section .container{
+    max-width: 681px;
+    margin: auto;
+}
+.blog-section h1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 23px;
+}
+.blog-section article{
+    padding-top: 32px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.blog-section article h3{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+.blog-date{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    position: relative;
+}
+.blog-date:after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    width: 1px;
+    height: 100%;
+    margin-left: 20px;
+}
+.blog-location{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.blog-section article p{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #21243D;
 }
