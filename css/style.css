@@ -148,13 +148,16 @@ header nav li a{
     box-sizing: border-box;
 }
 .posts .d-flex-container article h3{
+    margin-bottom: 17px;
+}
+.posts .d-flex-container article h3 a{
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 38px;
     color: #21243D;
-    margin-bottom: 17px;
+    text-decoration: none;
 }
 .date{
     font-family: 'Heebo', sans-serif;
@@ -220,21 +223,27 @@ header nav li a{
     overflow: hidden;
     margin-right: 18px;
 }
-.img-portfolio{
+.img-portfolio,
+.work-image img,
+.work-image-2 img,
+.work-image-3 img{
     width: 100%;
     display: block;
 }
 .text-works{
-    max-width: 594px;
+    max-width: 418px;
 }
 .heading-portfolio{
+    margin-bottom: 2px;
+}
+.heading-portfolio a{
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 44px;
     color: #21243D;
-    margin-bottom: 2px;
+    text-decoration: none;
 }
 .year{
     background: #142850;
@@ -256,7 +265,7 @@ header nav li a{
     font-size: 20px;
     line-height: 29px;
     color: #8695A4;
-    margin-bottom: 17px;
+    margin-bottom: 18px;
 }
 .text-portfolio{
     font-family: 'Heebo', sans-serif;
@@ -356,7 +365,7 @@ footer li{
     color: #21243D;
 }
 /* Blog-page */
-.blog{
+.active{
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -387,13 +396,16 @@ footer li{
     border-bottom: 1px solid #E0E0E0;
 }
 .blog-section article h3{
+    margin-bottom: 16px;
+}
+.blog-section article h3 a{
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 44px;
     color: #21243D;
-    margin-bottom: 16px;
+    text-decoration: none;
 }
 .blog-date{
     font-family: 'Heebo', sans-serif;
@@ -430,4 +442,112 @@ footer li{
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
+}
+/* Works-page */
+.work-section{
+    padding-top: 90px;
+    padding-bottom: 58px;
+}
+.work-section .container{
+    max-width: 681px;
+    margin: auto;
+}
+.work-section h1{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 25px;
+}
+.work{
+    margin-bottom: 45px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #E0E0E0;
+}
+/* Work-detail-page */
+.work-detail{
+    padding-top: 78px;
+    margin-bottom: 27px;
+}
+.work-detail .container{
+    max-width: 681px;
+    margin: auto;
+}
+.work-detail h1{
+    max-width: 506px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+    margin-bottom: 14px;
+}
+.work-year{
+    background: #FF7C7C;
+    border-radius: 16px;
+    padding: 0 10px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-right: 17px;
+}
+.work-name{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+}
+.work-detail p{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 23px;
+    margin-bottom: 46px;
+}
+.work-image{
+    max-width: 681px;
+    margin-bottom: 54px;
+}
+.work-detail h2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    color: #21243D;
+}
+.work-detail h3{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    color: #21243D;
+}
+.work-text{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.work-image-2{
+    max-width: 681px;
+    margin-bottom: 27px;
+}
+.work-image-3{
+    max-width: 681px;
 }
